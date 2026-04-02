@@ -8,6 +8,8 @@ import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
+import static appli.StartApplication.changeScene;
+
 public class LoginController {
 
 
@@ -40,7 +42,7 @@ public class LoginController {
 
     @FXML
     void inscriptionField(ActionEvent actionEvent) throws IOException {
-        StartApplication.changeScene("accueil/inscription.fxml");
+        changeScene("accueil/inscription.fxml");
     }
 
 

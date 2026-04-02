@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="395.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli.accueil.InscriptionController">
+<AnchorPane onDragDetected="#retour" prefHeight="395.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli.accueil.InscriptionController">
    <children>
       <Button layoutX="148.0" layoutY="294.0" mnemonicParsing="false" onAction="#retour" text="retour" />
       <TextField layoutX="99.0" layoutY="254.0" />
