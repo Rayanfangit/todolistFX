@@ -38,13 +38,13 @@ public class LoginController {
 
         }
 
-        @FXML
-        void inscriptionField(ActionEvent event) throws IOException {
-            StartApplication.changeScene("accueil/login");
+    @FXML
+    void inscriptionField(ActionEvent actionEvent) throws IOException {
+        StartApplication.changeScene("accueil/inscription.fxml");
+    }
 
-        }
 
-        @FXML
+    @FXML
         void mdpOublier(ActionEvent event) {
 
 
