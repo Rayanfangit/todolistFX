@@ -42,7 +42,7 @@ public class LoginController {
 
     @FXML
     void inscriptionField(ActionEvent actionEvent) throws IOException {
-        changeScene("accueil/inscription.fxml");
+        changeScene("accueil/inscription");
     }
 
 
