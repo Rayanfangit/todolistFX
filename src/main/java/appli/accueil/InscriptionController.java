@@ -1,19 +1,18 @@
 package appli.accueil;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-import java.awt.event.ActionEvent;
-import javafx.scene.input.MouseEvent;
+import java.io.IOException;
+
+import static appli.StartApplication.changeScene;
 
 
 public class InscriptionController {
-    @FXML
+ @FXML
+    void retour(ActionEvent event) throws IOException {
+     changeScene("accueil/login");
 
-    public void retour(javafx.event.ActionEvent actionEvent) {
-    }
-    @FXML
-    void retour(ActionEvent event) {
-
-    }
+ }
 }
 
